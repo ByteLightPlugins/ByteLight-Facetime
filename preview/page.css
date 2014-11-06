@@ -1,0 +1,83 @@
+.dummy {
+}
+
+.overlay {
+  position: relative;
+  background-color: white;
+  border-top: 2px solid ${color};
+}
+
+.background {
+  background-color: #474747;
+}
+
+.phone {
+  width: 320px !important;
+  height: 333px !important;
+}
+
+.tablet {
+  width: 640px !important;
+  height: 530px !important;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.headline, .subheadline {
+  margin-left: 36px; 
+}
+
+.phone-headline {
+  font-size: 24px !important;
+}
+
+.phone-subheadline {
+  font-size: 18px !important;
+  height: 42px;
+}
+
+.headline {
+  margin-top: 16px;
+  font-size: 36px;
+}
+
+.subheadline {
+  font-size: 28px;
+  bottom: 36px;
+  left: -36px;
+  right: 0px;
+  bottom: 0px;
+  height: 52px;
+  color: ${color};
+  position: absolute;
+  background-color: #dddede;
+  text-align: center;
+  border-top: 2px solid ${color};
+  line-height: 52px;
+}
+
+.preview {
+  left: 36px;
+  right: 36px;
+  bottom: 82px;
+  top: 69px;
+  position: absolute;
+  background-color: black;
+  overflow: hidden;
+}
+
+.phone-preview {
+  top: 90px !important;
+}
+
+.preview-image {
+  height: 100% !important;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+* {
+  font-family: arial;
+}
